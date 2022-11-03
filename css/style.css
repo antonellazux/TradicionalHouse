@@ -8,11 +8,12 @@ div.galeria{
     width: 100%;
     height: auto;
 }
-.galeria img{
-    width: 100%;
-    height: auto;
-}
 .galeria:hover{
     border: 1px solid lightcoral;
     transform: rotate(-3deg);
+}
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding: 10px;
 }
