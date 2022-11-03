@@ -4,3 +4,7 @@ div.galeria{
     float: left;
     width: 350 px;
 }
+.galeria img{
+    width: 100%;
+    height: auto;
+}
