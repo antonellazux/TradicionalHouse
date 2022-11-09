@@ -16,3 +16,7 @@ body{
     transition: transform 0.3s ease-in-out;
     border: solid 1px rgb(255, 255, 255);
 }
+.item:hover{
+    filter: opacity(o.9);
+    transform: scale(1.04);
+}
