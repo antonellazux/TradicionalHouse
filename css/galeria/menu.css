@@ -1,6 +1,6 @@
 .barr{
     background: #181b33;
-    padding: 20px;
+    padding: 30px;
     display: block;
     color: rgb(209, 190, 243);
     cursor: pointer;
@@ -23,6 +23,9 @@
     color: #121427;
     font-size: 1.2em;
     text-decoration: none;
+}
+.menuLink:hover{
+    background: rgb(209, 190, 243);
 }
 .subMenu{
     height: 0;
@@ -47,7 +50,7 @@
         margin-left: 0;
         display: flex;
     }
-    .ConSubM{
+    .conSubM{
         position: relative;
     }
     .subMenu{
@@ -55,5 +58,12 @@
         top: 80px;
         width: 400px;
         overflow: visible;
+        z-index: 1000;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .conSubM:hover .subMenu{
+        opacity: 1;
+        visibility: visible;
     }
 }
