@@ -39,7 +39,7 @@
 .mostrar{
     margin-left: 0;
 }
-@media(main-width:1024px){
+@media(min-width:1024px){
     .barr{
         display: none;
     }
@@ -49,5 +49,11 @@
     }
     .ConSubM{
         position: relative;
+    }
+    .subMenu{
+        position: absolute;
+        top: 80px;
+        width: 400px;
+        overflow: visible;
     }
 }
