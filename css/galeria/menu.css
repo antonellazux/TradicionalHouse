@@ -19,3 +19,16 @@
     font-size: 1.2em;
     text-decoration: none;
 }
+
+@media(main-width:1024px){
+    .barr{
+        display: none;
+    }
+    .menu{
+        margin-left: 0;
+        display: flex;
+    }
+    .ConSubM{
+        position: relative;
+    }
+}
