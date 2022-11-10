@@ -10,4 +10,12 @@
 .menu{
     background: #232641;
     width: 100%;
+    margin-left: -100%;
+}
+.menuLink{
+    display: block;
+    padding: 10px;
+    color: #121427;
+    font-size: 1.2em;
+    text-decoration: none;
 }
