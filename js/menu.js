@@ -1,8 +1,6 @@
 const barr = document.querySelector(".barr");
 const menu = document.querySelector(".menu");
 barr.addEventListener("click", function () {
-    
-}(){
     menu.classListe.toggle(".mostrar");
 });
 const subMenu =document.querySelectorAll(".subMenu");
