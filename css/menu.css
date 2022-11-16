@@ -8,15 +8,11 @@
     overflow: hidden;
 }
 .menu{
-    background-color: rgba(1, 10, 32, 0.644);
+    background-color: #181b33;
     color: rgb(17, 1, 31);
     text-decoration: none;
     padding: 10px;
     display: block;
-}
-.menu :hover{
-    background-color: rgba(17, 1, 31, 0.692);
-    color: rgba(2, 16, 48, 0.747);
 }
 .barr{
     background: #090c22;
