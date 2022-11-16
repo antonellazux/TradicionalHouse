@@ -1,9 +1,20 @@
-.nav .menu{
-    background-color: rgba(35, 3, 95, 0.719);
-    color: rgb(2, 51, 63);
-    text-decoration: none;
-    float: right;
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.menu{
+    float: left;
     width: 25%;
-    text-align: center;
-    padding: 20px;
+    overflow: hidden;
+}
+.menu{
+    background-color: rgba(1, 10, 32, 0.644);
+    color: rgb(17, 1, 31);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+.menu :hover{
+    background-color: rgba(17, 1, 31, 0.692);
+    color: rgba(2, 16, 48, 0.747);
 }
