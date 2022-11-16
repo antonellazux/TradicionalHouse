@@ -7,6 +7,8 @@
     <title>TH</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/logo.css">
+    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="css/galeria/menu.css">
     <script src="script.js"></script>
 </head>
 <body>
@@ -14,47 +16,50 @@
         <div class="logo" id="logo">
             <h1>TH</h1>
         </div>
-        <div>
             <span class="barr" id="Menu1"><i class="fa-solid fa-bars"></i>Menú</span>
             <nav class="nav">
-                <ul>
-                    <li> 
-                        <h2>Ubicacion</h2> <!--lista con la ubicacion-->
-                        <li>J Lastra 244 || Neuquen-Argentina</li>
-                    </li>
-                    <li> 
-                        <h2>Horarios</h2> <!--lista con los Horarios-->
-                        <li>Martes a Sabado de 10hs a 20 hs</li>
-                    </li>
-                    <li> 
+                <ul class="menu" id="Menu2">
+                    <li class="menuItem conSubM"> 
                         <ul>
-                            <li><h1>Servicios para el cliente</h1> <!--lista de servicos--></li>
-                            <li> <h3>Servicios de Barberia</h3> <!--servicios masculinos-->
+                            <h2>Ubicacion</h2> <!--lista con la ubicacion-->
+                            <li class="menuItem">J Lastra 244 || Neuquen-Argentina</li>
+                        </ul>
+                    </li>
+                    <li class="menuItem conSubM"> 
+                        <ul>
+                            <h2>Horarios</h2> <!--lista con los Horarios-->
+                            <li class="menuItem">Martes a Sabado de 10hs a 20 hs</li>
+                        </ul>
+                    </li>
+                    <li class="menuItem conSubM"> 
+                        <ul class="subMenu">
+                            <li class="menuItem"><h1>Servicios para el cliente</h1> <!--lista de servicos--></li>
+                            <li conSubM> <h3>Servicios de Barberia</h3> <!--servicios masculinos-->
                                 <ul>
-                                    <li>Cortes clásicos y de tendecia</li>
-                                    <li>Perfilado de barba</li>
-                                    <li>Afeitado spa</li>
-                                    <li>colores:
+                                    <li class="menuItem">Cortes clásicos y de tendecia</li>
+                                    <li class="menuItem">Perfilado de barba</li>
+                                    <li class="menuItem">Afeitado spa</li>
+                                    <li class="menuItem conSubM">colores:
                                         <ul>
-                                            <li>platinado</li>
-                                            <li>mechas</li>
-                                            <li>diseños</li>
+                                            <li class="menuItem">platinado</li>
+                                            <li class="menuItem">mechas</li>
+                                            <li class="menuItem">diseños</li>
                                         </ul>
                                     </li>
                                 </ul>
                             </li>
                         </ul>
-                        <ul>
-                            <li> <h3>Servicios Femenino</h3> <!--servicios femeninos-->
-                                <ul>
-                                    <li>Botox</li>
-                                    <li>Keratina</li>
-                                    <li>Alisado</li>
-                                    <li>colores
-                                        <ul>
-                                            <li>Tendencia</li>
-                                            <li>Balayege</li>
-                                            <li>Mechas</li>
+                        <ul class="subMenu">
+                            <li class="menuItem conSubM"> <h3>Servicios Femenino</h3> <!--servicios femeninos-->
+                                <ul class="subMenu">
+                                    <li class="menuItem">Botox</li>
+                                    <li class="menuItem">Keratina</li>
+                                    <li class="menuItem">Alisado</li>
+                                    <li class="menuItem conSubM">colores
+                                        <ul class="subMenu">
+                                            <li class="menuItem">Tendencia</li>
+                                            <li class="menuItem">Balayege</li>
+                                            <li class="menuItem">Mechas</li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -63,7 +68,6 @@
                     </li>
                 </ul>
             </nav>
-        </div>
         <div class="links"> <!--aca van los logos de instagram y whatsapp con los respectivos links-->
             <a href="https://wa.me/c/5492994127083"></a>
         </div>
